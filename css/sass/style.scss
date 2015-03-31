@@ -54,7 +54,7 @@ html ,body {
 			font-size: 24px;
 			color: #C9E6FC;
 			text-align: center;
-			margin-top: 200px;
+			padding-top: 200px;
 		}
 	}
 
@@ -85,7 +85,7 @@ html ,body {
 
 	#skills {
 		min-height: 220px;
-		padding-bottom: 86px; 
+		padding-bottom: 66px; 
 		background-color: #E8FDFF;
 
 		.centerWrap {
@@ -96,7 +96,7 @@ html ,body {
 			.skillItem {
 				width: 25%;
 				float: left;
-				padding: 40px 0 0;
+				padding: 40px 0 20px;
 				text-align: center;
 				cursor: pointer;
 
@@ -167,7 +167,7 @@ html ,body {
 				}
 
 				.list {
-					padding: 0 20px;
+					padding: 15px 0 0;
 
 					li {
 						font-size: 15px;
