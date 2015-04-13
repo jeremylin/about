@@ -605,3 +605,27 @@ html ,body {
 		}
 	} 
 }
+
+.imageWrap {
+	width: 1000px;
+	margin: 0 auto;
+
+	.mockup {
+		width: 1000px;
+	}
+
+	.img_1 {
+		background: url(../images/000.png) no-repeat center top;
+		height: 736px;
+	}
+
+	.img_2 {
+		background: url(../images/001.png) no-repeat center top;
+		height: 815px;
+	}
+
+	.img_3 {
+		background: url(../images/002.png) no-repeat center top;
+		height: 655px;
+	}
+}
