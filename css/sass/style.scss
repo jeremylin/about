@@ -607,25 +607,18 @@ html ,body {
 }
 
 .imageWrap {
-	width: 1000px;
-	margin: 0 auto;
+	width: 100%;
 
 	.mockup {
-		width: 1000px;
-	}
+		width: 100%;
 
-	.img_1 {
-		background: url(../images/000.png) no-repeat center top;
-		height: 736px;
-	}
-
-	.img_2 {
-		background: url(../images/001.png) no-repeat center top;
-		height: 815px;
-	}
-
-	.img_3 {
-		background: url(../images/002.png) no-repeat center top;
-		height: 655px;
+		img {
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			width: 100%;
+			margin: -4px auto;
+		}
 	}
 }
