@@ -93,7 +93,8 @@ html ,body {
 				width: 100%;
 				overflow: hidden;
 				margin-bottom: 30px;
-				background-color: #96DFFF;
+				background-color: #5B7B8A;
+				@include shadow(40px, 20px, 50px, 1px, #D5EAEC);
 
 				.titleWrap {
 					width: 20%;
@@ -115,6 +116,7 @@ html ,body {
 						margin: 20px 0;
 						display: inline-block;
 						font-size: 14px;
+						color: #FEFFF2;
 					}
 				}
 
@@ -122,7 +124,7 @@ html ,body {
 					width: 76%;
 					padding: 2%;
 					float: right;
-					background-color: #D1F3F7;
+					background-color: #FEFFF2;
 
 					h2 {
 						line-height: 38px;
